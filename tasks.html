@@ -2,9 +2,29 @@
 <html>
     <head>
         <title>All Task</title>
+        <style>
+            table{
+                 border-collapse: collapse;
+                width:100%
+            }
+            table, th, td{
+                border: 1px solid black;
+                padding: 15px;
+                text-align: left;
+            }
+            th{
+                background-color: #4caf50;
+                color:#fff;
+            }
+            tr:nth-child(even){
+                background-color: #f2f2f2;
+            }
+        </style>
     </head>
     <body>
+        <h1>Task</h1>
         <table>
+            <thead>
             <tr>
                 <th>Title</th>
                 <th>Desription</th>
@@ -12,13 +32,14 @@
                 <th>Priority Level</th>
                 <th>Progress |Level</th>
             </tr>
-
+            </thead>
+            <tbody>
             <tr>
                 <td>Reading</td>
                 <td>Reading Module 2 of ICT 694</td>
                 <td>Self Study</td>
                 <td>High</td>
-                <td>COmpleted</td>
+                <td>Completed</td>
                
             </tr>
             <tr>
@@ -26,8 +47,7 @@
                 <td>Reading Module 3 of ICT 694</td>
                 <td>Self Study</td>
                 <td>High</td>
-                <td>Pending</td>
-               
+                <td>Pending</td>              
             </tr>
 
             <tr>
@@ -35,18 +55,16 @@
                 <td>Reading Module 4 of ICT 694</td>
                 <td>Self Study</td>
                 <td>High</td>
-                <td>Pending</td>
-               
+                <td>Pending</td> 
             </tr>
             <tr>
                 <td>Reading</td>
                 <td>Reading Module 5 of ICT 694</td>
                 <td>Self Study</td>
                 <td>High</td>
-                <td>Pending</td>
-               
+                <td>Pending</td>              
             </tr>
-            >
+            </tbody>
         </table>
     </body>
 </html>
